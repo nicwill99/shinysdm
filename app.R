@@ -63,7 +63,8 @@ climate_list <- setNames(
 )
 
 species_cols <- setdiff(names(species_data), c("lat", "lon"))
-
+# ENTFERNEN WENN SICHELSCRECKE WIEDER DA
+species_cols <- setdiff(species_cols, "Phaneroptera_falcata")
 
 # 2. Europa-Umriss laden
 
